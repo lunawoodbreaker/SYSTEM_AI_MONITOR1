@@ -1,0 +1,6 @@
+# Update the import in enhanced_document_scanner.py
+# Change this line:
+from langchain_community.embeddings import HuggingFaceEmbeddings
+
+# To this:
+from langchain_huggingface import HuggingFaceEmbeddings

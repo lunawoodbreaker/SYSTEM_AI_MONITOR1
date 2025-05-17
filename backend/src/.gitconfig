@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = C:/Users/Luna/faceswap
+[user]
+	name = lunawoodbreaker
+	email = phone.1.email@proton.me
+[gui]
+	recentrepo = C:/Users/Luna/Documents/Projects/system-ai-manager
